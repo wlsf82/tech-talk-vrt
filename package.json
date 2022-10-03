@@ -1,0 +1,15 @@
+{
+  "name": "tech-talk-vrt",
+  "version": "1.0.0",
+  "description": "TBD.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}

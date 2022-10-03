@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VRT Sample App</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>VRT Sample App</h1>
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          const image = document.createElement('img')
+          image.src = './assets/sample-img.png'
+          document.querySelector('body').appendChild(image)
+          document.querySelector('img').style.display = 'block'
+        }, 3000)
+        const paragraph = document.createElement('p')
+        paragraph.innerText = new Date()
+        document.querySelector('body').appendChild(paragraph)
+      })
+    </script>
+  </body>
+</html>
